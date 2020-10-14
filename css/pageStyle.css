@@ -351,6 +351,22 @@ nav.navbar.navbar-default {
         right: -100px;
         transform:rotate(-20deg);
     }
+    .nav_text {
+      display: block;
+    }
+    img.logomain {
+      padding-left: 0px;
+    }
+    .nav_center {
+      text-align: center;
+      
+    }
+    .mainlogo {
+      padding-bottom: 30px;
+    }
+    .googleapp {
+      float: inherit;
+    }
 }
 @media only screen and (max-width: 480px){
     .pricingTable .title:before,
@@ -711,7 +727,7 @@ p.footer-head {
 
 {
    .googleapp {
-		float: left;
+		float: inherit;
 		}
 	nav.navbar.navbar-default {
     border: 1px solid #f0f0f0;
@@ -735,7 +751,7 @@ p.footer-head {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
   { 
   .googleapp {
-		float: left;
+		float: right;
 		}
 	nav.navbar.navbar-default {
     border: 1px solid #f0f0f0;
@@ -811,9 +827,6 @@ section.py1 {
 @media only screen and (min-width: 280px)and (max-height: 653px) 
 {
 	
-.googleapp {
-    float: left; 
-}
 .logo-text {
 	font-size: 23px;
 }
