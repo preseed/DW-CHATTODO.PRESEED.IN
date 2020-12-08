@@ -91,6 +91,8 @@ p.chaticoncontent {
     font-size: 20px;
     padding-top: 15px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.582);
+    font-weight: 400;
 }
 
 .iconMargin{
@@ -156,7 +158,7 @@ p.chaticoncontent {
 
 .Rectangle-3-text{
   font-family: 'San Francisco Display Thin';
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -470,9 +472,6 @@ p.iconsChattodoText.text-center {
     font-size: 16px;
 }
 
-span.tagline {
-    padding-left: 10px;
-}
 /* orange strip css */
 
 section.py1 {
@@ -482,13 +481,17 @@ section.py1 {
 	
 }
 h2.orange_strip_heading {
-    font-weight: 700;
-	color: #fff;
+    font-weight: 900;
+    font-family: 'San Francisco Display Thin';
+    line-height: 1.6;
+	  color: #fff;
 }
 p.orange_strip_content {
     color: #fff;
     font-size: 19px;
     padding-top: 10px;
+    font-family: 'San Francisco Display Thin';
+    line-height: 1.6;
 }
 
 section.py2 {
@@ -500,12 +503,16 @@ span.orangebold {
     color: #f2793d;
 }
 p.productivecontent {
-    font-size: 18px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.534);
+    font-family: 'San Francisco Display Thin';
+    font-weight: 900;
 }
 span.productiveheading {
     font-size: 24px;
     background-color: #f2793d;
-	color:#ffff;
+  color:#ffff;
+  font-family: 'San Francisco Display Thin';
 	padding-left: 10px;
     padding-right: 10px;
 }
@@ -555,9 +562,7 @@ span.productiveheading {
 .mb-100{
     margin-bottom:100px;
 }
-.services {
-	
-}
+
 .single-service {
 	position: relative;
 	text-align: center;
@@ -591,7 +596,7 @@ span.productiveheading {
 }
 .single-service:hover:after,
 .single-service:hover:before {
-	/*width: 50%;*/
+
 	height: 2px;
 	-webkit-transition: .3s;
 	transition: .3s
@@ -623,29 +628,45 @@ span.productiveheading {
 	text-transform: capitalize;
 }
 .single-service p {
-	font-size: 15px;
-	line-height: 1.8;
+  height: 264px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+
 }
 img.serviceimg {
-    width: 200px;
+    width: 170px;
     padding-bottom: 25px;
 }
 p.servicecontent2 {
-    padding-bottom: 23px;
+    padding-bottom: 20px;
 }
 p.servicecontent3 {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 .single-service h4 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-    color: #f2793d;
+  height: 100px;
+  font-family: 'San Francisco Display Thin';
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  color: var(--greyish-brown);
+
 }
-.single-service {
-    border: 2px dashed #f2793d;
-}
+
 section.py6 {
     background-color: #eaeaea;
     padding-top: 30px;
@@ -666,6 +687,7 @@ p.aboutchattodo {
     font-size: 22px;
     text-align: center;
     padding-top: 60px;
+    font-family: 'San Francisco Display Thin';
 }
 img.chattodoimg {
     display: block;
@@ -842,4 +864,15 @@ section.py1 {
     top: 15%;
     position: relative;
 }
+}
+.mt-5{
+  margin-top: 5em;
+}
+.mt-2{
+  margin-top: 2em;
+}
+.tagline{
+font-size: 11px;
+margin-top: 2px;
+color: rgba(0, 0, 0, 0.637);
 }
