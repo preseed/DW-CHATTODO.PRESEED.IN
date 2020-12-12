@@ -628,7 +628,7 @@ span.productiveheading {
 	text-transform: capitalize;
 }
 .single-service p {
-  height: 264px;
+  height: 294px;
   font-family: 'San Francisco Display Thin';
   font-size: 18px;
   font-weight: normal;
@@ -875,4 +875,12 @@ section.py1 {
 font-size: 11px;
 margin-top: 2px;
 color: rgba(0, 0, 0, 0.637);
+}
+
+.carousel-indicators{
+  background-color: transparent;
+  border: none;
+}
+.carousel-indicators .active{
+  border: 2px solid white;
 }
