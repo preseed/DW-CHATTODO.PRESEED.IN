@@ -884,3 +884,15 @@ color: rgba(0, 0, 0, 0.637);
 .carousel-indicators .active{
   border: 2px solid white;
 }
+.panel{
+  background-color: white !important;
+  border: none !important;
+  box-shadow: 3px 2px 2px rgb(236, 230, 230) !important;
+}
+.panel:hover{
+  box-shadow: 1px 1px 1px rgb(236, 230, 230) !important;
+
+}
+.panel-title{
+  color: #f2793d !important;
+}
