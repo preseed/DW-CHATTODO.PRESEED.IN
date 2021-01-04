@@ -903,3 +903,8 @@ color: rgba(0, 0, 0, 0.637);
 .panel-title{
   color: #f2793d !important;
 }
+@media only screen and (max-width:756px){
+.panel{
+  margin: 5px;
+}
+}
