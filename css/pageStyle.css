@@ -51,7 +51,14 @@ height: 584.1px;
   color: #4d4d4d;
   color: var(--greyish-brown);
 }
-
+@media only screen and (max-width:756px){
+  .mt-mob-10{
+  margin-top: 10em;
+  }
+  .mt-mob-2{
+    margin-top: 2em;
+    }
+}
 .header-text{
   height:420.1px;
   position: relative;
