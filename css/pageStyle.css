@@ -906,8 +906,68 @@ color: rgba(0, 0, 0, 0.637);
 .panel-title{
   color: #f2793d !important;
 }
+.mob-br{
+  display: none;
+}
 @media only screen and (max-width:756px){
 .panel{
   margin: 5px;
 }
+.mob-br{
+  display: block;
 }
+}
+summary {
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow:2px 2px 3px 1px rgb(223, 223, 223);
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-minus:after,
+.plus-minus .collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.plus-minus:after {
+  content:"-";
+  top: -1px;
+}
+.plus-minus .collapsed:after {
+  content:"+";
+  top: 0;
+}
+
+
